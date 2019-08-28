@@ -1,27 +1,24 @@
-##Project name
 
-Travel Agency
+# Travel Agency
 
-##General info
-
+## General info
 Sample travel agency website 
 
-##Features
+## Project purpose
+Practice programming
 
+## Features
 Slider 
 changing slides, clickable squeres shows which slide is active
 
-##Technologies
-
+## Technologies
 Create React App
 CSS
 
-##Status
-
+## Status
 Project is in progress
 
-##Contact
-
+## Contact
 Created by Anna Jarocińska 
 anna.jarocinska5@gmail.com
 
