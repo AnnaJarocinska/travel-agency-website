@@ -8,8 +8,8 @@ Sample travel agency website
 Practice programming
 
 ## Features
-Slider 
-changing slides, clickable squeres shows which slide is active
+##### Slider 
+- changing slides, clickable squeres shows which slide is active
 
 ## Technologies
 Create React App
