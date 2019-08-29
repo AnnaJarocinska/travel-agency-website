@@ -1,0 +1,8 @@
+.navigation__mobile-visible{
+    width: 200px;
+    height: 200px;
+    background-color:yellowgreen;
+    position: absolute;
+    top: 80%;
+    left:50%;
+}
