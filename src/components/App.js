@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header';
-import NavIcon from './NavIcon';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <React.Fragment>
+      <NavBar />
       <Header />
-      <NavIcon />
     </React.Fragment>
   );
 }
