@@ -1,18 +1,13 @@
 import React from 'react';
-import NavIcon from './NavIcon'
+import NavIcon from './NavIcon';
+import Logo from './Logo';
 
 const NavBar = (props) => {
     return (
-        <>
-            <nav className="navigationBar">
-                <div className="navigationBar__logo">
-                <i className="fas fa-plane"></i>
-                <span className="navigationBar__companyName">Fly High</span>
+            <div className="navigation">
+                <Logo/>
                 <NavIcon />
                 </div>
-               
-            </nav>
-        </>
     )
 }
 

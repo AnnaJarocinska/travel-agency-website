@@ -1,13 +1,18 @@
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom';
 import Header from './Header';
-import NavBar from './NavBar';
+import Main from './Main';
+import Footer from './Footer';
 
 function App() {
   return (
-    <React.Fragment>
-      <NavBar />
+    <BrowserRouter>
+     
       <Header />
-    </React.Fragment>
+      <Main/>
+      <Footer/>
+    
+    </BrowserRouter>
   );
 }
 

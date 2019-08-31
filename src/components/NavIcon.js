@@ -20,7 +20,7 @@ class NavIcon extends React.Component {
         const isClicked = this.state.isClicked;
         const isIconVisible = this.state.isIconVisible;
         let icon;
-        if (isIconVisible) { icon =<div className="navigationBar__Icon"> <i className="fas fa-bars" onClick={this.handleNavIconClick}></i></div>}
+        if (isIconVisible) { icon =<div className="navigation__icon"> <i className="fas fa-bars" onClick={this.handleNavIconClick}></i></div>}
         else { icon = null }
         return (
             <>
