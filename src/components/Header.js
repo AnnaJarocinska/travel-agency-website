@@ -1,11 +1,11 @@
 import React from 'react';
-import NavBar from './NavBar';
+import Width from './Width';
 import Slider from './Slider';
 
 const Header = () => {
     return (
         <React.Fragment>
-            <NavBar/>
+            <Width/>
             <Slider/>
         </React.Fragment>
     );
