@@ -1,0 +1,12 @@
+.contactForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    min-height: 80vh;
+}
+
+.contactForm__incorrect{
+    color:red;
+    flex-basis:100%;
+}

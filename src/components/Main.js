@@ -9,7 +9,7 @@ import NoRout from '../layouts/NoRout';
 
 const Main = () => {
     return (
-    <>
+    
     
     <Switch>
     <Route path="/" exact component={Start}/>
@@ -20,7 +20,7 @@ const Main = () => {
     <Route component ={NoRout}/>
     </Switch>
  
-    </>  );
+      );
 }
  
 export default Main;
