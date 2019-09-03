@@ -4,8 +4,6 @@ import Logo from './Logo';
 import Navigation from './Navigation';
 
 const NavBar = (props) => {
-    
-    console.log(props.width);
     return (
             <div className="navigation">
                 <Logo/>

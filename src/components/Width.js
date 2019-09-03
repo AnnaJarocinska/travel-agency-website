@@ -4,11 +4,11 @@ import NavBar from './NavBar';
 class Width extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { 
-            width:0,
-            isMobile:false,
-         }
-         this.updateWidowWidth = this.updateWidowWidth.bind(this);
+        this.state = {
+            width: 0,
+            isMobile: false,
+        }
+        this.updateWidowWidth = this.updateWidowWidth.bind(this);
     }
 
     componentDidMount() {
@@ -16,34 +16,26 @@ class Width extends React.Component {
         window.addEventListener("resize", this.updateWidowWidth)
     }
 
-    
-    componentWillUnmount(){
+
+    componentWillUnmount() {
         window.removeEventListener("resize", this.updateWidowWidth)
     }
 
-    updateWidowWidth(){
-        this.setState({width:window.innerWidth})
-        if (this.state.width<600){
-            this.setState({isMobile:true})
+    updateWidowWidth() {
+        this.setState({ width: window.innerWidth })
+        if (this.state.width < 600) {
+            this.setState({ isMobile: true })
         };
     }
+    render( ) {
 
-
-    
-    render(
-        
-    ) {
-        
-        return(
+        return (
             <>
-            <NavBar width={this.state.width}/>
-            
-            {/* {this.state.isMobile? <NavBar/> : null} */}
-            {/* {this.state.width} */}
-            
+                <NavBar width={this.state.width} />
+
             </>);
     }
 }
 
- 
+
 export default Width;
