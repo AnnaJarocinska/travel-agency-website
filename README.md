@@ -10,6 +10,10 @@ Practice programming
 ## Features
 ##### Slider 
 - changing slides, clickable squeres shows which slide is active
+##### Navigation
+- responsive
+##### Contact Form
+- validation in React
 
 ## Technologies
 Create React App
